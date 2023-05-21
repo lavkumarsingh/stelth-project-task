@@ -20,7 +20,7 @@ function Category(props) {
         category?.data?.map(e => {
           return(
             <div className='category-section'>
-              <p>{e.Name}</p>
+              <p className='category-heading'>{e.Name}</p>
               {
                 e.Labels.map(l=> {
                   return(

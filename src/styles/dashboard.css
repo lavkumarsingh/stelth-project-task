@@ -74,13 +74,16 @@ Background: #f0f3fc
 .category {
     width: 25%;
 }
+.category-heading {
+    font-weight: 600;
+}
 .list {
     width: 75%;
 }
 .list-items {
     width: 100%;
     background-color: white;
-    padding: 0 10px;
+    padding: 0 20px;
     border-radius: 4px;
 }
 .iconStyle {

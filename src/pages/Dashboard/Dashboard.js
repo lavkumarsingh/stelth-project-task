@@ -30,12 +30,12 @@ function Dashboard() {
           <Grid item xs={12}>
             <div className='file-manager-container'>
                 <section className='category'>
-                  <h5 className='heading-secondary iconStyle'>CATEGORY <SettingsIcon /></h5>
+                  <h5 className='heading-secondary iconStyle'>Category <SettingsIcon /></h5>
                     <Category />
                 </section>
                 <section className='list-items'>
-                  <h5 className='heading-h5'>All Items</h5>
-                    <ListItem />
+                  <h5 className='heading-secondary iconStyle' style={{marginLeft: 10}}>All Items</h5>
+                  <ListItem />
                 </section>
             </div>
           </Grid>
